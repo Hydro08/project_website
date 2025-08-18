@@ -79,7 +79,7 @@ a:hover {
     margin: 10px 30px;
 }
 
-#flip1, #flip2, #flip3, #flip4, #flip5, #flip6 {
+#flip1, #flip2, #flip3, #flip4, #flip5 {
     display: none;
 }
 
@@ -99,7 +99,10 @@ a:hover {
 }
 
 #flip1:checked + .cards .card-container,
-#flip2:checked + .cards .card-container
+#flip2:checked + .cards .card-container,
+#flip3:checked + .cards .card-container,
+#flip4:checked + .cards .card-container,
+#flip5:checked + .cards .card-container
  {
     transform: rotateY(180deg);
 }
