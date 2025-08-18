@@ -11,6 +11,7 @@ body {
 
     width: 100%;
     height: 100%;
+    background: green;
 }
 
 .left_div {
@@ -72,12 +73,14 @@ a:hover {
     width: 100%;
     height: 100%;
 
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+
+    margin: 10px 30px;
 }
 
-#flip1, #flip2 {
+#flip1, #flip2, #flip3, #flip4, #flip5, #flip6 {
     display: none;
 }
 
@@ -118,9 +121,19 @@ a:hover {
 
 .front {
     background: blue;
+    display: inline;
+}
+
+.front_h1 {
+    color: white;
+    font-size: 24px;
 }
 
 .back {
     background: green;
     transform: rotateY(180deg);
+}
+
+.all_pics {
+    border-radius: 12px;
 }
