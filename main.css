@@ -90,9 +90,9 @@
         display: none;
     }
 
-    .navbar h1 {
-        margin-left: 0;
-        font-size: 20px;
-        text-align: center;
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
     }
