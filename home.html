@@ -1,38 +1,37 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Test Web</title>
-  <link rel="stylesheet" href="main.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test Web</title>
+    <link rel="stylesheet" href="set.css">
 </head>
 <body>
-  <input type="checkbox" id="selection-toggle">
+    
+    <div class="container">
+        <div class="left_div">
+            <div class="left_div_top">
+                <h1>Historical Sheyt</h1>
+            </div>
+            <div class="links">
+            <a href="#" class="a_home">Home</a>
+            <a href="#">About</a>
+            <a href="#">Topic</a>
+            <a href="#">Contact</a>
+            </div>
+        </div>
+        <div class="right_div">
+            <input type="checkbox" id="flip1">
 
-  <div class="navbar">
-    <label for="selection-toggle" class="menu-btn">☰</label>
-    <center>
-        <h1>Text !</h1>
-    </center>
-    <div class="nav-links">
-      <a href="#">Home</a>
-      <a href="#">About</a>
-      <a href="#">Contact</a>
+            <label for="flip1" class="card">
+                <div class="card-inner">
+                    <div class="card-face card-front">
+                        <img src="jose_rizal.jpg" width="100%" height="100%" alt="Jose Rizal">
+                    </div>
+                    <div class="card-face card-back">Aray ko</div>
+                </div>
+            </label>
+        </div>
     </div>
-  </div>
-
-  <div class="sidebar">
-    <h2>Menu</h2>
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
-  </div>
-
-  <label for="selection-toggle" class="overlay"></label>
-
-  <div class="content" style="padding:20px;">
-    <h2>Default: Laptop Navbar</h2>
-    <p>Resize to small screen: hamburger menu will appear.</p>
-  </div>
 </body>
 </html>
